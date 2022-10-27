@@ -1,0 +1,55 @@
+.form-container{
+    margin: auto;
+    width: 350px;
+
+}
+
+.form-label{
+    color: hsl(278, 68%, 11%);
+    text-transform: uppercase;
+   font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+.form-control{
+    position: relative;
+    border-radius: 9px !important;
+    border: 1px solid hsl(270, 3%, 87%);
+}
+
+.form-control::placeholder{
+    color: hsl(270, 3%, 87%) !important;
+}
+.form-control:focus{
+    box-shadow: none !important;  
+    border:1px solid hsl(278, 68%, 11%) !important;
+}
+ 
+.confirm-btn{
+    background-color:hsl(278, 68%, 11%) !important ;
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px !important;
+    border-radius: 9px !important;
+}
+.confirm-btn:focus{
+    box-shadow: none !important;
+}
+.no-validate{
+    border: 1px solid hsl(0, 100%, 66%) !important;
+}
+.no-validate:focus{
+    border: 1px solid hsl(0, 100%, 66%) !important;
+}
+.p-relative{
+    position: relative;
+}
+
+@media  (min-width:300px) and (max-width:990px){
+    .form-container{
+        margin: auto;
+        bottom: 0;
+        
+    }
+}

@@ -1,0 +1,149 @@
+
+    .images-container{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .bg-image{
+        position: absolute;
+        width: 100% !important;
+        height: 100%;
+        top: 0;
+        left: 0;
+        padding: 0 !important;
+    }
+    
+    .cards{
+        position: absolute;
+        top: 50%;
+        height: 430px;
+        width: 350px;
+        left: 50%;
+        transform: translate(-25%,-50%);
+    }
+    
+    .bg-front{
+        position: absolute;
+        top: 0;
+        width: 350px !important;
+        height: 200px;
+    }
+    
+    .card-info{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% ;
+        height: 100%;
+       
+    } 
+    
+    .bg-back{
+        position: absolute;
+        bottom: 0;
+        left: 40px;
+        width: 350px !important;
+        height: 200px;
+    }
+    
+    .two-circels{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 100px;
+        height: 50px;
+    }
+    
+    .typography{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 5%);
+    }
+    .typography p{
+        color: #fff;
+        text-align: center;
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+    .name{
+        position:absolute;
+        bottom: 0;
+        left: 20px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    .date{
+        position:absolute;
+        bottom: 0;
+        right: 20px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    
+    .cvv{
+        position: absolute;
+        top: 87px;
+        right: 40px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+
+
+@media  (min-width:300px) and (max-width:990px) {
+    .images-container{
+        position: relative;
+        width: 100%;
+        height: 70%;
+    }
+    .cards{  
+        position: absolute;
+        top: 50%;
+        height: 100px;
+        width: 100px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .bg-front{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-62%,3%);
+        width: 264px !important;
+        height: 150px;
+        z-index: 1;
+    }
+    .card-info{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% ;
+        height: 100%;
+    }   
+    .bg-back{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-39%,-53%);
+        width: 264px !important;
+        height: 150px;
+    }
+    .typography p{
+        color: #fff;
+        text-align: center;
+        font-size: 17px;
+        letter-spacing: 2px;
+    }
+    .cvv{
+        position: absolute;
+        top: 65px;
+        right: 31px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+}
